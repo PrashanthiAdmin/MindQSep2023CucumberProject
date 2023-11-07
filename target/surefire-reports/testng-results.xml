@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-06T08:53:17 IST" name="RegressionSuite" finished-at="2023-11-06T08:53:28 IST" duration-ms="10993">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:mindq.mindqsep2023bddframework.runners.Runner@1aa7ecca]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-06T08:53:17 IST" name="RegressionTestForBuild2023.1" finished-at="2023-11-06T08:53:28 IST" duration-ms="10993">
+      <class name="mindq.mindqsep2023bddframework.runners.Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:mindq.mindqsep2023bddframework.runners.Runner@1aa7ecca]" started-at="2023-11-06T08:53:18 IST" name="setUpClass" finished-at="2023-11-06T08:53:18 IST" duration-ms="887" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@461c3709]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:mindq.mindqsep2023bddframework.runners.Runner@1aa7ecca]" started-at="2023-11-06T08:53:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-06T08:53:24 IST" duration-ms="6041" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer should not be able to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page functionalities will be covered in this feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at mind.mindqsep2023bddframework.stepdefinitions.LoginStepDefintions.user_should_see_the_error_message_on_the_login_screen(LoginStepDefintions.java:60)
+at ✽.User should see the error message on the login screen(file:///C:/Users/prash/eclipse-workspace/mindqsep2023bddframework/Features/LoginPageFeature.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:mindq.mindqsep2023bddframework.runners.Runner@1aa7ecca]" started-at="2023-11-06T08:53:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-06T08:53:28 IST" duration-ms="3868" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Customer should not be able to login with invalid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page functionalities will be covered in this feature"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at mind.mindqsep2023bddframework.stepdefinitions.LoginStepDefintions.user_should_see_the_error_message_on_the_login_screen(LoginStepDefintions.java:60)
+at ✽.User should see the error message on the login screen(file:///C:/Users/prash/eclipse-workspace/mindqsep2023bddframework/Features/LoginPageFeature.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:mindq.mindqsep2023bddframework.runners.Runner@1aa7ecca]" started-at="2023-11-06T08:53:28 IST" name="tearDownClass" finished-at="2023-11-06T08:53:28 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- mindq.mindqsep2023bddframework.runners.Runner -->
+    </test> <!-- RegressionTestForBuild2023.1 -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>

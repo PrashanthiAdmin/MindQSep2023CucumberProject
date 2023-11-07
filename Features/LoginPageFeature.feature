@@ -22,7 +22,7 @@ Then User should see the error message on the login screen
 Examples:
 |Emailid|Password|
 |test7896@gmail.com|Test123|
-|test3456@gmail.com|Test123|
+|test3456@gmail.com|Test1234|
 
 
 Scenario: Customer should login to the application using excel data
